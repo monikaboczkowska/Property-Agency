@@ -1,0 +1,330 @@
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+/*  GLOBAL CSS  */
+
+.text-blue {
+    color: #006BA6;
+}
+.text-slant {
+    font-family: "Caveat", cursive;
+}
+.green-btn {
+    color: #fff;
+    border: 0.1rem solid #fff;
+    background: transparent;
+}
+.blue-btn {
+    color: #006BA6;
+    border: 0.1rem solid #006BA6;
+    background: transparent;
+}
+.green-btn:hover {
+    background-color: aliceblue;
+    color: forestgreen;
+    font-weight: bold;
+}
+
+/*  NAVBAR CSS  */
+
+.navbar {
+    background-color: #006BA6;
+}
+.phone-icon {
+    color: aliceblue;
+    border: 0.1rem solid #fff;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.nav-link {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+nav .navbar-nav li a {
+    color: floralwhite !important;
+    font-weight: bold;
+}
+nav .navbar-nav li a:hover {
+    color: darkslategray !important;
+}
+
+/* BANNER SECTION */
+
+.banner-info-footer {
+    background-color: #006BA6;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.banner-img-footer {
+    background-color: #006BA6;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    position: absolute;
+    height: 120px;
+    border-left: aliceblue 1px solid;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.banner-img {
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/27/10/16/interior-2685521_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: calc(100vh - 90px);
+    position: relative;
+}
+.banner-info {
+    min-height: calc(100vh - 90px);
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+/* ABOUT SECTION */
+
+.container-about {
+    background-color: #f5f5f5;
+}
+.card img {
+    height: 25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.blockquote {
+    font-size: 1rem;
+    border-left: solid 0.3rem #006BA6;
+}
+.blue-btn:hover {
+    background-color: #006BA6;
+    color: #f5f5f5;
+}
+
+/* CONTACT SECTION */
+
+.contact {
+    background-color: #006BA6;
+    color: aliceblue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.contact-btn {
+    background-color: #f5f5f5;
+    color: #006BA6;
+    font-weight: bold;
+}
+.contact-btn:hover {
+    background-color: #006BA6;
+    color: #f5f5f5;
+    border: 0.1rem solid #f5f5f5;
+    font-weight: bold;
+}
+
+/* SERVICES SECTION */
+
+.services {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(https://cdn.pixabay.com/photo/2017/04/10/22/28/residence-2219972_1280.jpg) center/cover fixed no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://cdn.pixabay.com/photo/2017/04/10/22/28/residence-2219972_1280.jpg) center/cover fixed no-repeat;
+}
+.service-icon {
+    color: aliceblue;
+    font-size: 3rem;
+    border: 0.1rem solid #f5f5f5;
+    padding: 0.5rem;
+    transition: all 0.5s ease-in-out;
+}
+.service-icon:hover {
+    color: aliceblue;
+    font-size: 3rem;
+    border: 0.1rem solid aliceblue;
+    padding: 0.5rem;
+    background-color: #006BA6;
+}
+.services a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.services a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+}
+.services-info-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #006BA6;
+    color: aliceblue !important;
+}
+.services-info-text:hover {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: aliceblue;
+    color: #006BA6 !important;
+}
+.hr-white {
+    background: aliceblue !important;
+}
+.service-img {
+    height: 30rem;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+/* GALLERY SECTION */
+
+.gallery-img-container {
+    position: relative;
+    transition: all 1s linear;
+    overflow: hidden;
+}
+.gallery-img-container:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+.gallery-img {
+    transition: all 1s linear;
+}
+.gallery-img-container:hover .gallery-img {
+    opacity: 0.3;
+}
+.gallery-info {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background-color: #f5f5f5;
+    transform: translate(-50%, 100%);
+    color: #006ba6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s linear;
+}
+.gallery-info:hover {
+    text-decoration: none;
+    color: aliceblue;
+}
+.gallery-img-container:hover .gallery-info {
+    transform: translate(-50%, 0);
+}
+.gallery-icon {
+    position: absolute;
+    color: aliceblue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    font-size: 2rem;
+}
+.gallery-img-container:hover .gallery-icon {
+    opacity: 1;
+}
+
+/* TOUR SECTION */
+
+.tour {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.pexels.com/photos/2988860/pexels-photo-2988860.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center/cover fixed no-repeat;
+}
+.play-btn {
+    font-size: 1.5rem;
+    transition: all 0.5s ease-in-out;
+}
+.play-btn:hover {
+    font-size: 2rem;
+}
+
+/* NEARBY PLACES SECTION */
+
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    margin-bottom: 2rem;
+}
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+    background-color: #f5f5f5;
+}
+
+/* @MEDIA SECTION */
+
+@media (min-width: 320px) and (orientation: portrait) {
+    .banner-img-footer {
+        background-color: #006BA6;
+        bottom: 0;
+        left: 0;
+        width: 45%;
+        position: absolute;
+        height: 120px;
+        border-left: aliceblue 0.1rem solid;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+@media (orientation: landscape) {
+    .banner-img-footer {
+        background-color: #006BA6;
+        bottom: 0;
+        left: 0;
+        width: 30%;
+        position: absolute;
+        height: 120px;
+        border-left: aliceblue 0.1rem solid;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+@media (min-width: 960px) {
+    .banner-img-footer {
+        background-color: #006BA6;
+        bottom: 0;
+        left: 0;
+        width: 20%;
+        position: absolute;
+        height: 120px;
+        border-left: aliceblue 0.1rem solid;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
